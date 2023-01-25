@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html class="color">
   <head>
     <meta charset="utf-8">
+    <script src="scripts/jQuery.js"></script>
     <script src="scripts/client.js" charset="utf-8"></script>
-    <title>jQuery Car Garage</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Week 5 Tier 1 Assignment</title>
   </head>
   <body>
-    <h1>jQuery Car Garage</h1>
+    <div></div>
+      <h1 class="headline">Put You Car in The Garage:</h1>
+    <!-- <form> -->
+        <label for="yearInfo"> Year: </label>
+        <input class="space" type="year" id="yearInfo"/>
+        <label for="makeInfo"> Make: </label>
+        <input class="space" type="make" id="makeInfo"/>
+        <label for="modelInfo"> Model: </label>
+        <input class="space" type="model" id="modelInfo"/>
+        <button id="addCar"> Add Car </button>
+    <!-- </form> -->
   </body>
+  <footer class="foot">
+    <div></div>
+    <h2> Show cars in Garage: </h2>
+      <ul id="allCars">
+        <li> Year: </li>
+        <li> Make: </li>
+        <li> Model: </li>
+      </ul>
+  </footer>
 </html>

@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: #008080;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif
+};
+
+.color {
+    background-color: #008080;
+};
+.headline {
+    text-align: center;
+    color: bisque;
+    font-size: larger;
+};
+.input {
+    position: relative;
+    width: 20%;
+    height: 20px;
+}
+.label {
+    font-size: 5px;
+}
+.space {
+    margin: 2%;
+    padding: 2%;
+    border: 2%;
+}
+.foot {
+    text-align: center;
+    font-size: xx-large;
+}
